@@ -6,5 +6,6 @@ Scripts:
 
 Cleanup:
 
-aws s3 rm s3://gireeesh-firehose --recursive
+aws s3 rm s3://gireeesh-firehose --recursive  
 aws firehose delete-delivery-stream --delivery-stream-name fire-hose
+
